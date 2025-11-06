@@ -17,8 +17,12 @@ Below we'll go through the steps of installing LineageOS to the Samsung Galaxy A
 >[!NOTE]  
 >First step is to go to `Settings` -> `About` menu and check your phone's `Product name` and `Model name` and check if they exist in [LineageOS supported devices list](https://wiki.lineageos.org/devices/).
 
-![Check product name and model name from settings' about menu](images/01_settings_model_name_resize.jpg)  
-Image 01 - About phone menu 
+<!--
+![Check product name and model name from settings' about menu](images/01_settings_model_name_resize.jpg)  -->
+
+<img src="images/01_settings_model_name_resize.jpg" alt="Check product name and model name from settings' about menu" style="width:33%; height:auto;">  
+
+Image 01 - About phone menu  
 
 >[!WARNING]  
 >Warning: The provided instructions are for LineageOS 22.2. These will only work if you follow every section and step precisely.
@@ -56,5 +60,3 @@ Tip: The COM port, or the number succeeding COM, may be any valid number.
 15. The device will demand you factory reset, please follow the onscreen instructions to do so.
 16. Run through Android Setup skipping everything you can, then connect the device to a Wi-Fi network.
 17. Re-enable Development settings by clicking the “Build Number” option 10 times, in the “Settings” app within the “About” menu, and verify that “OEM Unlock” is still enabled in the “Developer options” menu.
-
-
