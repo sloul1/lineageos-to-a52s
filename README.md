@@ -13,6 +13,13 @@ Even though some of the Android smartphone manufacturers have extended the softw
 There are actively developed Android projects to solve the end of manufacturer's software support problem: [LineageOS](https://lineageos.org/), [CrDroid](https://crdroid.net/) and [/e/OS](https://e.foundation/e-os/) to name few.
 
 Below we'll go through the steps of installing LineageOS to the Samsung Galaxy A52s 5G smartphone.
+
+>[!NOTE]  
+>First step is to go to `Settings` -> `About` menu and check your phone's `Product name` and `Model name` and check if they exist in supported devices list of .
+
+![Check product name and model name from settings' about menu](images/01_settings_model_name_resize.jpg)
+Image 01 - About phone menu 
+
 >[!WARNING]  
 >Warning: The provided instructions are for LineageOS 22.2. These will only work if you follow every section and step precisely.
 Do not continue after something fails!
