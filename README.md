@@ -20,9 +20,11 @@ Below we'll go through the steps of installing LineageOS to the Samsung Galaxy A
 <!--
 ![Check product name and model name from settings' about menu](images/01_settings_model_name_resize.jpg)  -->
 <p align="center">
-
 <img src="images/01_settings_model_name_resize.jpg" alt="Check product name and model name from settings' about menu" style="width:33%; height:auto;">  
+</p>
 
+<p align="center">
+Image 01 - About phone menu
 </p>
 
 
