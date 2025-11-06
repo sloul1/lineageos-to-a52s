@@ -20,7 +20,7 @@ Below we'll go through the steps of installing LineageOS to the Samsung Galaxy A
 <!--
 ![Check product name and model name from settings' about menu](images/01_settings_model_name_resize.jpg)  -->
 <p align="center">
-<img src="images/01_settings_model_name_resize.jpg" alt="Check product name and model name from settings' about menu" style="width:50%; height:auto;">  
+<img src="images/01_settings_model_name_resize.jpg" alt="Check product name and model name from settings about menu" style="width:50%; height:auto;">  
 </p>
 
 <p align="center">
@@ -41,8 +41,12 @@ Do not continue after something fails!
 <img src="images/02_enable_oem_unlocking_and_usb_debugging_thumb.png" alt="Check product name and model name from settings' about menu" style="width:50%; height:auto;">  
 -->
 
-[![Watch the video](images/02_enable_oem_unlocking_and_usb_debugging_thumb.png)](images/02_enable_oem_unlocking_and_usb_debugging_resize.mp4)  
+<p align="center>
 
+<img src="images/02_enable_oem_unlocking_and_usb_debugging_resize.gif" alt="Enable OEM unlocking and USB debugging">Video 1 - Enable OEM unlocking and USB debugging</img>  
+
+</p>
+  
 3. Download `vbmeta.img` from [here](https://download.lineageos.org/devices/a52sxq/builds).  
 4. Open a Command Prompt in the folder where the file was downloaded and TAR the file by running tar --format=ustar -cvf vbmeta.tar vbmeta.img
 5. Power off the device, and boot it into download mode:
