@@ -36,12 +36,13 @@ Do not continue after something fails!
 
 1. Connect the device to a Wi-Fi network.
 2. Enable Developer Options by pressing the “Build Number” option at least 7 times, in the “Settings” app within the “About” menu
-- From within the Developer options menu, enable OEM unlock.
+- From within the Developer options menu, enable OEM unlock.  
 <!--
 <img src="images/02_enable_oem_unlocking_and_usb_debugging_thumb.png" alt="Check product name and model name from settings' about menu" style="width:50%; height:auto;">  
 -->
 
-[![Watch the video](images/02_enable_oem_unlocking_and_usb_debugging_thumb.png)](images/02_enable_oem_unlocking_and_usb_debugging_1000kbps_resize.mp4)  
+[![Watch the video](images/02_enable_oem_unlocking_and_usb_debugging_thumb.png)](images/02_enable_oem_unlocking_and_usb_debugging_resize.mp4)  
+
 3. Download `vbmeta.img` from [here](https://download.lineageos.org/devices/a52sxq/builds).  
 4. Open a Command Prompt in the folder where the file was downloaded and TAR the file by running tar --format=ustar -cvf vbmeta.tar vbmeta.img
 5. Power off the device, and boot it into download mode:
