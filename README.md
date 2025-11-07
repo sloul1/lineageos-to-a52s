@@ -37,7 +37,7 @@ Do not continue after something fails!
 - From within the Developer options menu, enable OEM unlock.
 
 <div style="text-align: center;">
-  <img src="images/02_enable_oem_unlocking_and_usb_debugging_resized.gif" alt="Enable OEM unlocking and USB debugging">
+  <img src="images/02_enable_oem_unlocking_and_usb_debugging_resized_sml.gif" alt="Enable OEM unlocking and USB debugging">
   <p>Video 1 - Enable OEM unlocking and USB debugging</p>
 </div>
   
