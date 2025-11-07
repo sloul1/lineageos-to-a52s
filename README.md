@@ -26,9 +26,34 @@ Image 01 - About phone menu
 </p>
 
 
+
 >[!WARNING]  
 >Warning: The provided instructions are for LineageOS 22.2. These will only work if you follow every section and step precisely.
 Do not continue after something fails!
+
+## Basic requirements
+
+
+1. Read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!
+2. Make sure your computer has adb. Setup instructions can be found [here](https://wiki.lineageos.org/adb_fastboot_guide.html#installing-adb-and-fastboot).
+3. Enable [USB debugging](https://wiki.lineageos.org/adb_fastboot_guide.html#setting-up-adb) on your device. [Video instruction](#oem).
+4. Make sure that your model number is one of the following (exact match required!):  
+- SM-A528B
+- SM-A528N
+- SM-A528B/DS
+5. Boot your device with the stock OS at least once and check every functionality.
+6. Remove all Google accounts from your device to avoid “Factory reset protection”
+7. LineageOS is provided as-is with no warranty. While we attempt to verify everything works you are installing this at your own risk!
+
+>[!WARNING]  
+><b>Warning:</b> Your device needs a specific <b>[firmware](https://wiki.lineageos.org/glossary#firmware)</b> version before proceeding.  
+If your device is currently using a newer or older version than the required version, please up- or downgrade to the required version before proceeding with your LineageOS installation.
+
+The required version is <b>Android 13/14</b>, which may be lower than the LineageOS version you are about to install - this is not an error!  
+If there are multiple updates of that version (e.g. security updates), make sure to use the latest!
+
+If you need to upgrade or downgrade your device, please search online for guides.  
+We are unable to provide specific instructions here and on our support platforms.
 
 ## Pre-Install instructions 
 
@@ -36,7 +61,7 @@ Do not continue after something fails!
 2. Enable Developer Options by pressing the “Build Number” option at least 7 times, in the “Settings” app within the “About” menu
 - From within the Developer options menu, enable OEM unlock.
 
-<div style="text-align: center;">
+<div id="oem" style="text-align: center;">
   <img src="images/02_enable_oem_unlocking_and_usb_debugging_resized_sx.gif" alt="Enable OEM unlocking and USB debugging">
   <p>Video 1 - Enable OEM unlocking and USB debugging</p>
 </div>
