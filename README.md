@@ -17,8 +17,6 @@ Below we'll go through the steps of installing LineageOS to the Samsung Galaxy A
 >[!NOTE]  
 >First step is to go to `Settings` -> `About` menu and check your phone's `Product name` and `Model name` and check if they exist in [LineageOS supported devices list](https://wiki.lineageos.org/devices/).
 
-<!--
-![Check product name and model name from settings' about menu](images/01_settings_model_name_resize.jpg)  -->
 <p align="center">
 <img src="images/01_settings_model_name_resize.jpg" alt="Check product name and model name from settings about menu" style="width:50%; height:auto;">  
 </p>
@@ -39,7 +37,7 @@ Do not continue after something fails!
 - From within the Developer options menu, enable OEM unlock.
 
 <div style="text-align: center;">
-  <img src="images/02_enable_oem_unlocking_and_usb_debugging_resize.gif" alt="Enable OEM unlocking and USB debugging">
+  <img src="images/02_enable_oem_unlocking_and_usb_debugging_resized.gif" alt="Enable OEM unlocking and USB debugging">
   <p>Video 1 - Enable OEM unlocking and USB debugging</p>
 </div>
   
